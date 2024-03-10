@@ -1,0 +1,32 @@
+/* div {
+    border:dashed 1px red
+} */
+.photo{
+    margin: 0;
+    min-width: 50%;
+    min-height: 100px;
+    background-color: white;
+}
+
+.head{
+    display: flex;
+}
+.title{
+    display: flex;
+    justify-content: flex-start;
+    font-size: small;
+    flex-grow: 95;
+    padding-top: 2%;
+    
+}
+.date{
+    justify-content: flex-end;
+    font-size: small;
+    align-self: center;
+    flex-grow: 5;
+    color: rgb(136, 136, 136);
+    padding-top: 4%;
+}
+.descripcion p{
+    font-size: smaller;
+}
